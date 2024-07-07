@@ -1,15 +1,15 @@
 .App {
   text-align: center;
+  color: black; /* Added black color */
 }
 
-/****************************************************************/
 .movie-card {
-  background-color: rgba(10, 46, 46, 0.8);
+  background-color: silver; /* Changed to silver */
   max-width: 80vw; 
   display: flex;
   flex-direction: column;
   margin: 3rem auto;
-  border: 8px ridge #e29506;
+  border: 8px ridge black; /* Changed to black */
   border-radius: 15px;
 }
 
@@ -24,53 +24,34 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2.5rem;
   margin-top: 1rem;
-  color: #e89c11;
+  color: white; /* Changed to white */
 }
 
 .movie-synop {
   max-width: 50rem;
-  color: white;
+  color: black; /* Changed to black */
   padding: 10px;
 }
 
 .img-exterior-border {
-  border: .5rem solid #e89c11;
+  border: .5rem solid silver; /* Changed to silver */
   margin: 1rem;
 }
 
-
 .img-container {
-  border: 1.5rem dotted #fdb226 ;
+  border: 1.5rem dotted black; /* Changed to black */
   margin: 1rem;
 }
 
 .movie-image {
-  border: .5rem solid #c4840d;
+  border: .5rem solid silver; /* Changed to silver */
 }
 
-/****************************************************************/
-.star-ratings {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.star {
-  cursor: pointer;
-  transition: color 200ms;
-}
-
-/* Hiding the radio buttons behind the stars*/
-.radio-star-btn {
-  display: none;
-}
-
-/****************************************************************/
 .review-form {
-  background-color: #1f1e1e;
-  border: 4px outset #e29506;
+  background-color: black; /* Changed to black */
+  border: 4px outset silver; /* Changed to silver */
   border-radius: 5%;
-  color: orange;
+  color: white; /* Changed to white */
   display: flex;
   flex-direction: row;
   max-width: 20rem;
@@ -79,67 +60,28 @@
   margin-left: 5rem;
 }
 
-.rating-header {
-  font-size: 1.5rem;
-  margin: auto;
-}
-
-.review-stars {
-  margin: auto;
-  padding-bottom: 0.5rem;
-}
-
-.review-form label {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.form-username, .form-content {
-  margin-bottom: 3px;
-}
-
 .input-fields {
-  background-color: lightgrey;
+  background-color: silver; /* Changed to silver */
   display: flex;
   justify-content: left;
   border-radius: 5px;
 }
 
 .input-fields:hover {
-  background-color: white;
-}
-
-.btn-container {
-  display: flex;
-  justify-content: end;
-  margin-top: 1rem;
+  background-color: white; /* Changed to white */
 }
 
 .submit-btn {
-  background-color: #f3a81d;
+  background-color: silver; /* Changed to silver */
   border-radius: 5px;
 }
 
 .submit-btn:hover {
-  background-color: rgb(205, 198, 198);
+  background-color: white; /* Changed to white */
 }
 
 .submit-btn:active {
-  background-color: #e89c11;
-}
-
-/****************************************************************/
-.review-info {
-  display: flex;
-  justify-content: left;
-  margin: 0rem 2rem 2rem 2rem;
-  padding-left: 1rem;
-}
-
-.review-list {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
+  background-color: black; /* Changed to black */
 }
 
 .review-header {
@@ -147,11 +89,6 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   max-width: 20rem;
-  color: #e89c11;
+  color: silver; /* Changed to silver */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#indv-review {
-  display: flex;
-  justify-content: center;
 }
