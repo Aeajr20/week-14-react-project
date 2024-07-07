@@ -1,5 +1,5 @@
 import React from "react";
-import Movie from "./Movie";
+import Movie from "./Movie.jsx";
 
 export default class MovieList extends React.Component {
        

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import MovieList from './MovieList';
+import MovieList from './MovieList.jsx';
 
 
 function App() {

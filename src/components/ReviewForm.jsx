@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StarRating from "./StarRating";
+import Stars from "./Stars.jsx";
 
 
 
@@ -28,7 +28,7 @@ function ReviewForm () {
         <div className="review-form">
             <form onSubmit={e => e.preventDefault()}>
                 <p className="rating-header">Rate this movie</p>
-                <h1 className="review-stars"><StarRating /></h1>
+                <h1 className="review-stars"><Stars/></h1>
                 <div>
                     <div className="form-username">
                         <label className="form-usernameLabel">Username:</label>
