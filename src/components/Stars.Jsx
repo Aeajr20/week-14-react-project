@@ -12,7 +12,7 @@ function StarRating () {
  function handleStarChange(e) {
     setRating(e.target.value);
 }
- 
+   
  return (
         <div className="star-ratings">
             {[ ...Array(5)].map((star, i) => {

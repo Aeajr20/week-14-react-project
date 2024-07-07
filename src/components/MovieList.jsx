@@ -15,7 +15,7 @@ export default class MovieList extends React.Component {
                 "netWorth": "30 million",
                 "awards": ["Teen Choice Award", "Saturn Award"]
               },
-              {
+              {   
                 "name": "Zoe Saldana",
                 "age": 43,
                 "netWorth": "35 million",
