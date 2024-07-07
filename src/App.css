@@ -1,21 +1,157 @@
-body {
-  font-family: Arial, sans-serif;
+.App {
+  text-align: center;
 }
 
-.movie {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
-  background-color: #f9f9f9;
+/****************************************************************/
+.movie-card {
+  background-color: rgba(10, 46, 46, 0.8);
+  max-width: 80vw; 
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  border: 8px ridge #e29506;
+  border-radius: 15px;
 }
 
-.stars span {
+.movie-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.movie-title {
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: #e89c11;
+}
+
+.movie-synop {
+  max-width: 50rem;
+  color: white;
+  padding: 10px;
+}
+
+.img-exterior-border {
+  border: .5rem solid #e89c11;
+  margin: 1rem;
+}
+
+
+.img-container {
+  border: 1.5rem dotted #fdb226 ;
+  margin: 1rem;
+}
+
+.movie-image {
+  border: .5rem solid #c4840d;
+}
+
+/****************************************************************/
+.star-ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
   cursor: pointer;
-  font-size: 20px;
+  transition: color 200ms;
 }
 
-.review {
-  padding: 8px;
-  background-color: #efefef;
-  margin: 4px 0;
+/* Hiding the radio buttons behind the stars*/
+.radio-star-btn {
+  display: none;
+}
+
+/****************************************************************/
+.review-form {
+  background-color: #1f1e1e;
+  border: 4px outset #e29506;
+  border-radius: 5%;
+  color: orange;
+  display: flex;
+  flex-direction: row;
+  max-width: 20rem;
+  max-height: 20rem;
+  padding: 15px;
+  margin-left: 5rem;
+}
+
+.rating-header {
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.review-stars {
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.review-form label {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-username, .form-content {
+  margin-bottom: 3px;
+}
+
+.input-fields {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: left;
+  border-radius: 5px;
+}
+
+.input-fields:hover {
+  background-color: white;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.submit-btn {
+  background-color: #f3a81d;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: rgb(205, 198, 198);
+}
+
+.submit-btn:active {
+  background-color: #e89c11;
+}
+
+/****************************************************************/
+.review-info {
+  display: flex;
+  justify-content: left;
+  margin: 0rem 2rem 2rem 2rem;
+  padding-left: 1rem;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.review-header {
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 20rem;
+  color: #e89c11;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#indv-review {
+  display: flex;
+  justify-content: center;
 }

@@ -1,3 +1,6 @@
+/** The most important thing this file does is create the root that the rest
+ * of the React app binds to.*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

@@ -1,14 +1,6 @@
-import React, { useState } from "react";
-import ReviewList from "./ReviewList";
-import ReviewForm from "./ReviewForm";
+import React from "react";
 
 const Movie = ({ movie }) => {
-  const [reviews, setReviews] = useState(movie.reviews);
-
-  const handleReviewSubmit = (review) => {
-    setReviews([...reviews, review]);
-  };
-
   return (
     <div>
       <h2>{movie.title}</h2>
@@ -20,9 +12,6 @@ const Movie = ({ movie }) => {
           <p>Awards: {actor.awards.join(', ')}</p>
         </div>
       ))}
-      <Stars />
-      <ReviewList reviews={reviews} />
-      <ReviewForm onSubmit={handleReviewSubmit} />
     </div>
   );
 };

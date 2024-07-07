@@ -1,5 +1,6 @@
 {
-  "movies": [
+    "movies": [
+     
     {
       "title": "Avatar",
       "genres": ["Action", "Adventure", "Sci-Fi"],
