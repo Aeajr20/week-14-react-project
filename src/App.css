@@ -1,4 +1,79 @@
-.App {
-  text-align: center;
+.App{cursor:pointer;}
+
+.h1{text-align: center;
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+
 }
-     
+
+/* Example styles for MovieList and ReviewList */
+.movieList-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-item {
+  width: 220px;
+  padding: 20px;
+  margin: 20px;
+  background-color:rgba(58, 57, 56, 0.849); /* Dark background for movie items */
+  color: black; /* White text color */
+  text-align: center;
+  font-weight: bolder;
+}
+
+.review-list {
+  margin-top: 20px;
+}
+
+.review-form {
+  background-color: #696969; /* Dark background for review form */
+  padding: 20px;
+  margin: 20px;
+  color: #fff; /* White text color */
+  cursor: pointer;
+}
+
+.input-fields,
+.submit-btn {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+  color: #333; /* Dark text color for input fields */
+  background-color: #fff; /* White background for input fields */
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #f3d511; /* Yellow submit button */
+  color: #333; /* Dark text color for button */
+  border: none;
+  cursor: pointer;
+}
+
+.star-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.star-ratings input[type="radio"] {
+  display: none;
+}
+
+.star-ratings label {
+  margin: 0 5px;
+}
+
+.star-ratings p {
+  margin-top: 10px;
+  font-size: 16px;
+}
